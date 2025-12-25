@@ -3,11 +3,10 @@ import { stacks } from "../context/data";
 import StackSection from "./StackSection";
 import StartStep from "./StartStep";
 
-
 const Container = () => {
   return (
-    <div className="min-h-screen bg-zinc-950 text-white p-10 space-y-16">
-      <StartStep/>
+    <div className="min-h-screen bg-zinc-950 text-white p-4 sm:p-6 md:p-10 space-y-16">
+      <StartStep />
       <StackSection title="Frontend Variants" data={stacks.frontend} />
       <StackSection title="Backend Variants" data={stacks.backend} />
     </div>
