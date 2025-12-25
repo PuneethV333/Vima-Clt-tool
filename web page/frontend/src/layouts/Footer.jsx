@@ -18,7 +18,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:items-end space-y-2 text-slate-200">
           <a href="https://github.com/PuneethV333" className="hover:text-cyan-400 transition">GitHub</a>
-          <a href="#" className="hover:text-cyan-400 transition">Instagram</a>
+          <a href="https://instagram.com/333_appu_x/" className="hover:text-cyan-400 transition">Instagram</a>
           <a href="https://www.npmjs.com/~vimatech" className="hover:text-cyan-400 transition">npmjs</a>
           <a href="https://www.linkedin.com/in/puneeth-v-78a394336/" className="hover:text-cyan-400 transition">LinkedIn</a>
         </div>
