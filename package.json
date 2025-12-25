@@ -1,18 +1,10 @@
 {
   "name": "vima-clt",
-  "version": "1.0.2",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.5",
+  "description": "VIMA CLI - project scaffolding tool",
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "bin": {
     "vima": "./index.cjs"
   },
@@ -21,5 +13,8 @@
     "index.cjs",
     "README.md"
   ],
-  "dependencies": {}
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "license": "ISC"
 }

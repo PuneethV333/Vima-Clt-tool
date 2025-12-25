@@ -34,7 +34,7 @@ const args = process.argv.slice(2);
     
     const setupModule = require(path.join(
       __dirname,
-      `./libs/${command}/v${version}.js`
+      `./libs/${command}/v${version}.cjs`
     ));
 
     if (!setupModule || !setupModule.setup) {
