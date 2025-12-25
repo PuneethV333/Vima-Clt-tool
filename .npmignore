@@ -1,0 +1,13 @@
+# Exclude dev files
+node_modules/
+*.log
+.vscode/
+.idea/
+web page/
+Vima-Clt-tool/
+
+# Include only what matters for npm
+!libs/
+!index.cjs
+!README.md
+!package.json

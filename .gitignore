@@ -1,7 +1,14 @@
+<<<<<<< HEAD
+=======
+# Node modules
+node_modules/
+
+>>>>>>> 29395be (1.0.1)
 # Logs
 logs
 *.log
 npm-debug.log*
+<<<<<<< HEAD
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
@@ -145,3 +152,18 @@ node_modules/
 .env.*
 dist
 build
+=======
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build folders
+dist/
+build/
+.vscode/
+.idea/
+
+# Optional: local environment files
+.env
+>>>>>>> 29395be (1.0.1)

@@ -1,0 +1,25 @@
+{
+  "name": "vima-clt",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bin": {
+    "vima": "./index.cjs"
+  },
+  "files": [
+    "libs",
+    "index.cjs",
+    "README.md"
+  ],
+  "dependencies": {}
+}
